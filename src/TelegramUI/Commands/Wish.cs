@@ -16,7 +16,9 @@ namespace TelegramUI.Commands
 {
     public static class Wish
     {
-        private static int Randomizer()
+        private static int hi
+
+
         {
             var rnd = new Random(Guid.NewGuid().GetHashCode()).Next(1, 1000);
             return rnd switch
